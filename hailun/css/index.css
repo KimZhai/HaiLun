@@ -1,0 +1,320 @@
+*{padding: 0; margin: 0;}
+.header{
+	background: url(../img/bg.png);
+	/*background-size: cover contain;*/
+	/*margin: 0 auto;*/
+	/*background-size: contain; */
+}
+header{
+	height: 126px;
+	border-bottom:white solid 1px;
+}
+.header-left{
+	margin-top:10px;
+}
+
+.header-right{
+	margin-top:50px;
+}
+.header-right img{
+	padding: 20px;
+	margin-left:10px;
+	background: url(../img/icon-bg.png) no-repeat center;
+	/*background-size: 4400px;*/
+}
+.header-right img:hover{
+	background: url(../img/icon-bg2.png) no-repeat center;
+
+}
+nav{
+	margin: 20px auto;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #80b767;
+	text-decoration: none;
+}
+nav li{
+	list-style: none;
+}
+/*.carcousel .p1{
+	margin: 120px auto 20px 150px;
+	font-size: 36px;
+	color: #80b767;
+}*/
+.carcousel .content{
+	margin: 20% auto; 
+	width: 80%;
+}
+.carcousel .p1{
+	font-size: 36px;
+	color: #80b767;
+}
+.carcousel .p2{
+	font-size: 20px;
+	color: white;
+	margin: 20px auto;
+}
+.ss-input{
+	margin-right: 10px;
+	display: none;
+	background: none;
+	/*border-bottom:white;*/
+	color: white;
+	padding: 0px 10px;
+}
+
+.logo1{
+	width: 60px; height: 60px;
+	margin-top:30px;
+}
+.logo2{
+	width: 60px;
+	height: 40px;
+	margin-top: 30px;
+}
+
+		*{padding: 0; margin: 0;}
+		.btn1{
+			background: none;
+			padding: 10px;
+			color: white;
+		}
+		.btn1:hover{
+			background: #80b767;
+		}
+		.btn2{
+			background: white;
+		}
+
+.about{
+	background: white;
+	margin-bottom: 20px;
+}
+.about .row{
+	/*margin-bottom: 20px;*/
+}
+.about .container{
+	margin-bottom: 100px;
+}
+.about-content{
+	margin-top: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom:#e5e5e5 solid 1px;
+}
+.about-content p{
+	font-size: 36px;
+	color: #80b767;
+}
+.about-content a,.about-icon a{
+	color: #80b767;
+}
+.about-content text,.about-icon text{
+	color: #b9b8b8;
+}
+
+.about-icon{
+	width: 50%;
+	text-align: center;
+	line-height: 30px;
+	margin-top:50px;
+}
+.about-icon:hover{
+	box-shadow: darkgrey 5px 5px 5px 10px ;
+}
+
+.icon5{
+	margin-top:50px;
+}
+.carcousel2-content{
+	overflow:hidden;
+}
+.carcousel2{
+	background: #f2f2f2;
+
+}
+.carcousel2-title{
+	font-size: 36px;
+	color: #80b767;
+	margin: 50px auto;
+	text-align: center;
+}
+.carcousel2-slide{
+	background: #efefef;
+	  box-shadow: darkgrey 1px 1px 1px 1px ;
+}
+.carcousel2-slide img{
+	width: 100%;
+}
+.carcousel2-slide p{
+	/*color: #b4b4b4;*/
+	margin: 20px;
+}
+.carcousel2-slide a{
+	/*color: #b4b4b4;*/
+	margin: 20px;
+}
+.carcousel2-slide:hover{
+	  background: #80b767;
+	  box-shadow: #80b767 1px 1px 1px 1px;
+	  color: white;
+}
+
+.news{
+	background: #f2f2f2;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.news-title{
+	font-size: 36px;
+	color: #80b767;
+	text-align: center;
+	margin:100px auto 50px auto;
+}
+.news li{
+	list-style:none;
+}
+.news li p{
+	line-height: 40px;
+	color: #90b767;
+
+}
+.news li::after{
+	content:"Expandable hoses are an alternative to traditional hoses that many of us have on reels in our gardens or sheds. They are lighter, compact and a lot of brands claim their expandable hoses won't kink either. However, we've found that some of them don't stretch as far as they claim - especially if you have low water-pressure.";
+	background: #80b767;
+	position: absolute;
+	opacity: 0;
+	width: 269px;
+	height: 302px;
+	margin-top: -400px;	
+	margin-left: -133px;
+	color: white;
+	line-height: 20px;
+	text-align: center;
+	padding: 30px;
+}
+.news li:hover::after{
+	opacity: 50;
+	transition: all 3s;
+}
+footer{
+	background:#333333;
+}
+footer .row{
+	margin: 50px auto;
+	border-bottom: #808080 solid 1px;
+	padding-bottom: 40px;
+}
+.footer-left{
+	/*margin: 50px auto;*/
+	color: #9b9999;
+}
+.footer-left p{
+	margin-top:30px;
+}
+.footer-left .pull-right{
+	padding: 13px;
+	margin-left:10px;
+	background: url(../img/icon-bg.png) no-repeat center;
+}
+.footer-left .pull-right:hover{
+	/*padding: 12px;*/
+	background: url(../img/icon-bg2.png) no-repeat center;
+}
+.footer-center{
+	/*text-align: center;*/
+	line-height: 30px;
+	margin: 0 25%;
+}
+.footer-center .title,.footer-center .phone{
+	color: white;
+
+}
+.footer-center .text,.footer-center .emall{
+	color: #9b9999;
+}
+.footer-right{
+	line-height:30px;
+	list-style: none;
+}
+.footer-right p{
+	color: white;
+}
+.footer-right li{
+	list-style: none;
+	color: #9b9999;
+}
+.u1{
+	float: left;
+}
+.u2{
+	float: right;
+}
+.p2{
+	float: left;
+	color: #9b9999;
+}
+.p3{
+	float: right;
+	color: #9b9999;
+}
+
+/*响应式调整*/
+@media (max-width:768px){
+	.carcousel-left{
+	display: none;
+	}
+	.carcousel img{
+		width: 100%;
+		float: none;
+	}
+	.about-content{
+		line-height: 25px;
+	}
+	.carcousel2-slide{
+		font-size: 10px;
+	}
+	.footer-left{
+		text-align: center;
+	}
+	.footer-center{
+		margin:20px auto;
+		text-align: center;
+		line-height:20px;
+	}
+	.footer-right{
+		text-align: center;
+		line-height: 25px;
+		margin-top: 50px;
+	}
+	.u1,.u2{
+		float: none;
+		text-align: center;
+	}
+	.p2,.p3{
+		float: none;
+		text-align: center;
+	}
+}
+@media (max-width:992px){
+	.footer-center{
+		/*float: left;*/
+		margin: 20px 0;
+	}
+	.footer-right{
+		/*float: right;*/
+		margin: 20px 0;
+	}
+}
+ @media (min-width:768px){
+	.btn3{
+		display: none;
+		}	
+ }
+ ul .home{
+ 	color: #80b767;
+ }
